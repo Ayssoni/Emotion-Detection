@@ -9,7 +9,7 @@ import tensorflow as tf
 # ==========================================
 # Ensure 'my_model.keras' is in the same folder as this script
 try:
-    MY_MODEL = tf.keras.models.load_model('/Users/aysoni/Documents/Emotion-Detection/main/emotion_resnet_best.keras')
+    MY_MODEL = tf.keras.models.load_model('main/emotion_resnet_best.keras')
     # Define your emotion labels in the order your model was trained
     EMOTION_LABELS = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 except Exception as e:
