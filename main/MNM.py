@@ -8,7 +8,6 @@ import os
 os.environ['PYTHONHTTPSVERIFY'] = '0'
 ssl._create_default_https_context = ssl._create_unverified_context
 
-# --- STEP 1: DEFINE DATASET PATH VARIABLES ---
 TRAIN_DIR = r'Dataset/train'
 TEST_DIR = r'Dataset/test'
 
